@@ -3,7 +3,7 @@
 
 
 
-const findTwoSumIndices = (sortedArray, targetValue) => {
+const findTwoSumIndixes = (sortedArray, targetValue) => {
       const elementIndices = {};
 
       for (let i = 0; i < sortedArray.length; i++) {
@@ -26,7 +26,7 @@ const findTwoSumIndices = (sortedArray, targetValue) => {
       return [];
 }
 
-const sortedArray = [1, 3, 6, 8, 11, 15];
+const sortedArray = [1,2, 3, 6, 8, 11, 15];
 const targetValue = 9;
-const outputIndices = findTwoSumIndices(sortedArray, targetValue);
+const outputIndices = findTwoSumIndixes(sortedArray, targetValue);
 console.log(outputIndices);
