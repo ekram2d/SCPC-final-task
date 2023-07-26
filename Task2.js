@@ -13,7 +13,7 @@ const  sumPositiveNumbers=(numbers)=> {
     }
     
 
-    const inputArray = [2, -5, 10, -3, 7];
+    const inputArray = [2, -5, 10, -3, 7,-6];
     const Sum = sumPositiveNumbers(inputArray);
     console.log(Sum); 
     
