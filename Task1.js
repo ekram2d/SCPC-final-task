@@ -10,6 +10,6 @@ const  reverseString=(inputString)=>{
 }
 
 
-const inputStr = "hello world";
+const inputStr = "hello world hello";
 const outputStr = reverseString(inputStr);
 console.log(outputStr);
