@@ -32,6 +32,7 @@ function findSecondSmallest(arr) {
 }
 
 
-const numbers = [5, 10, 3, 8, 7, 9];
+const numbers = [5, 10, 3, 4, -7, 9];
 const secondSmallest = findSecondSmallest(numbers);
 console.log("Second Smallest Element:", secondSmallest);
+
