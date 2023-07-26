@@ -26,6 +26,6 @@ const findMostFrequentElement = (arr) => {
 }
 
 
-const inputArray = [3, 5, 2, 5, 3, 3, 1, 4, 5];
+const inputArray = [3, 5, 2, 5, 3, 3,1,2, 1, 4, 5];
 const outputElement = findMostFrequentElement(inputArray);
 console.log(outputElement); 
