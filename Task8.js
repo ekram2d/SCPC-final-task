@@ -3,7 +3,7 @@
 
 
 
-function findSecondSmallest(arr) {
+function findSecondSmallestNumber(arr) {
       if (arr.length < 2) {
             return ("Array should have at least two elements");
       }
@@ -33,6 +33,6 @@ function findSecondSmallest(arr) {
 
 
 const numbers = [5, 10, 3, 4, -7, 9];
-const secondSmallest = findSecondSmallest(numbers);
+const secondSmallest = findSecondSmallestNumber(numbers);
 console.log("Second Smallest Element:", secondSmallest);
 
